@@ -81,6 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "RN_ARCHITECT — Studio Arsitektur & Interior" },
+      { name: "twitter:title", content: "RN_ARCHITECT — Studio Arsitektur & Interior" },
+      { name: "description", content: "Screenshot Perfect is a web application that captures and displays screenshots." },
+      { property: "og:description", content: "Screenshot Perfect is a web application that captures and displays screenshots." },
+      { name: "twitter:description", content: "Screenshot Perfect is a web application that captures and displays screenshots." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b04601a1-d6b6-4657-a455-c76747ea615e/id-preview-5830dbb5--d0315345-08e4-466d-968b-c156e12f4468.lovable.app-1778403287487.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b04601a1-d6b6-4657-a455-c76747ea615e/id-preview-5830dbb5--d0315345-08e4-466d-968b-c156e12f4468.lovable.app-1778403287487.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
